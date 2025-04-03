@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from main.models import producto
+from main.models import Producto
 
 class ProductoSerializer(serializers.ModelSerializer):
     class Meta:
-        model = producto
+        model = Producto
         fields = '__all__'
